@@ -16,6 +16,8 @@
     $goods = mysqli_fetch_assoc($result);
 	$good = mysqli_fetch_assoc($result);
 	$goo = mysqli_fetch_assoc($result);
+    $go = mysqli_fetch_assoc($result);
+    $g = mysqli_fetch_assoc($result);
 	?>
 
 <!DOCTYPE html>
@@ -152,6 +154,45 @@
             </button>
         </a>
     </div>
+    <div class="honeycomb">
+        <div class="honey">
+            <div class="honey_left">
+                <p>
+                    <?php if(isset($_POST['d'])){echo "Рекомендую !!!";}; echo $g['title'];echo "<br/>";echo $g['OPI'];echo "<br/>"; echo $goo['date'];?>
+                </p>
+            </div>
+            <div class="honey_right">
+           
+            </div>
+        </div>
+        <a href="pomogite.php">
+            <button type="submit" class="comb">
+                <p style="color: black">
+                    Записаться
+                </p>
+            </button>
+        </a>
+    </div>
+    <div class="honeycomb">
+        <div class="honey">
+            <div class="honey_left">
+                <p>
+                    <?php if(isset($_POST['d'])){echo "Рекомендую !!!";}; echo $go['title'];echo "<br/>";echo $go['OPI'];echo "<br/>"; echo $goo['date'];?>
+                </p>
+            </div>
+            <div class="honey_right">
+           
+            </div>
+        </div>
+        <a href="pomogite.php">
+            <button type="submit" class="comb">
+                <p style="color: black">
+                    Записаться
+                </p>
+            </button>
+        </a>
+    </div>
+  
 				
 		    </div>
 			
