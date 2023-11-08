@@ -68,7 +68,7 @@
 		</div>
 		    <div class="Heading_1">
 			    <p style="color:white">
-				    <h1 style="color:white">Мероприятия</h1>
+				    <h1 style="color:white">События</h1>
 			    </p>
 		    </div>
 		<div class="Heading_2_karkas">
@@ -86,13 +86,9 @@
 					Страницы
 		    	    </p>
 		        </div>
-
-		    	<div class="Criteria_input">
-		    	<form action="Rec.php">
-    <input type="submit" value="Настройки предпочтенний" />
-</form>
-		    		
-		        </div>
+		    	<form action="Rec.php"> 
+                    <input type="submit" class="knopka" value="Настройки предпочтенний">
+                </form>
 		    </div>
 		    <div class="event_hive">
     
